@@ -18,7 +18,7 @@ export default function Header({ search }) {
     <nav className="navbar navbar-expand-lg py-3 bg-dark">
       <div className="container " >
         <h1 className="text-white fw-bold fs-3 m-0">المطعم</h1>
-        <button className="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <button className="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
           <FontAwesomeIcon icon={faBars} className="text-white" />
         </button>
         <div className="collapse navbar-collapse" style={{ flexGrow: '0' }} id="navbarSupportedContent">
