@@ -6,7 +6,7 @@ export default function Card({ id, title, category, imgUrl, description, price }
       <div className="card mb-3 overflow-hidden">
         <div className="row g-0">
           <div className="col-lg-5 col-xl-3">
-            <img src={'imgs/' + imgUrl} className="img-fluid" alt={imgUrl} />
+            <img src={require('../imgs/' + imgUrl)} className="img-fluid" alt={imgUrl} />
           </div>
           <div className="col-lg-7 col-xl-9">
             <div className="card-body">

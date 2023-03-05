@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
+import './styles/master.css'
 import { data } from './data';
 import Header from './components/Header';
 import Main from './components/Main';
@@ -26,7 +27,7 @@ function App() {
   }
 
   function search(query) {
-    setShownItems(data.filter(item => new RegExp(query,"ig").test(item.title)));
+    setShownItems(data.filter(item => new RegExp(query, "ig").test(item.title)));
   }
 
   return (
