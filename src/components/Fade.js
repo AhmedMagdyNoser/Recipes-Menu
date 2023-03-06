@@ -25,3 +25,18 @@ export default function Fade(props) {
 
 }
 
+/*
+
+you need to add 
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
+to your css master file
+
+*/
